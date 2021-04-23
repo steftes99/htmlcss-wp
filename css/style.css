@@ -24,7 +24,12 @@ li{
     color: #9d9d9d;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    cursor: pointer;
+    
 
+}
+li:hover{
+    text-decoration: underline;
 }
 
 .principale{
@@ -39,6 +44,7 @@ li{
 .layover{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 2%;
+    width: auto;
 }
 .paragrafo1{
     font-size: 40px;
@@ -83,7 +89,7 @@ li{
 }
 .container{
     height: 500px;
-    background-color:  #0087ff;
+    
     margin-top: 0;
 }
 
@@ -94,31 +100,61 @@ li{
 }
 
 .left{
-    height: 480px;
+   
     width: 24%;
-    background-color:  #abcfe7;
     margin-top: 10px;
     margin-right: 1%; 
     margin-bottom: 10px;
     float: left;
+}
+.bordo{
     
+    filter: brightness(80%);
+    
+}
+.img1{
+    border-radius: 5%;
+    height: 250px;
+    margin-right: 0;
+   
+
+}
+
+.titoloimg{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.testoimg{
+    font-family: 'Roboto', 'sans-serif';
+    color: #acacac;
+    font-weight: bold;
+    text-align: left;
 
 }
 
 .middle{
-    height: 480px;
     width: 50%;
-    background-color: #abcfe7;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
    
 }
+.img2{
+    height: 250px;
+    width: 580px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5%;
+    
+}
 
 .right{
-    height: 480px;
+    
     width: 24%; 
-    background-color:  #abcfe7;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 1%;
@@ -126,9 +162,18 @@ li{
     
     
 }
+.img3{
+    height: 250px;
+    width: 80%;
+    border-radius: 5%;
+    margin-left: 0;
+}
 
 footer{
-    height: 70px;
+    
     margin-top: 10px;
-    background-color: #8801fe;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    
 }
