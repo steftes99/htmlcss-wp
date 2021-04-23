@@ -58,8 +58,6 @@ li{
     font-size: 25px;
     font-family: 'Roboto', 'sans-serif';
     margin-top: 0;
-    
-
 }
 
 }
@@ -67,7 +65,20 @@ li{
     height: 80px;
     background-color: #abcfe7;
     margin-bottom: 0;
-
+}
+.frase-impatto{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    
+}
+.sottotitolo{
+    color: #acacac;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30px;
+    margin-top: 0;
 
 }
 .container{
