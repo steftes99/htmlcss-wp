@@ -87,11 +87,7 @@ li:hover{
     margin-top: 0;
 
 }
-.container{
-    height: 500px;
-    
-    margin-top: 0;
-}
+
 
 .container::after{
     content: "";
@@ -113,9 +109,11 @@ li:hover{
     
 }
 .img1{
-    border-radius: 5%;
+    border-radius: 5px;
     height: 250px;
     margin-right: 0;
+    width: 100%;
+    object-fit: cover;
    
 
 }
@@ -143,14 +141,7 @@ li:hover{
     display: inline-block;
    
 }
-.img2{
-    height: 250px;
-    width: 580px;
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 5%;
-    
-}
+
 
 .right{
     
@@ -162,12 +153,7 @@ li:hover{
     
     
 }
-.img3{
-    height: 250px;
-    width: 80%;
-    border-radius: 5%;
-    margin-left: 0;
-}
+
 
 footer{
     
