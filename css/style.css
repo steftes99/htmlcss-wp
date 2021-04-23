@@ -4,10 +4,27 @@ body{
 }
 
 header{
-    height: 200px;
-    background-color: violet;
     margin-bottom: 20px;
     display: block;
+}
+#logo{
+    width: 20%;
+}
+ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding-left: 0;
+
+}
+li{
+    display: inline;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #9d9d9d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
 }
 
 .principale{
