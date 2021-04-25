@@ -35,11 +35,11 @@ li:hover{
 .principale{
     
     background-color: #cbbcb6;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner-3.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
-    border-radius: 2%;
+    border-radius: 2px;
 }
 .layover{
     background-color: rgba(0, 0, 0, 0.3);
@@ -97,15 +97,14 @@ li:hover{
 
 .left{
    
-    width: 24%;
-    margin-top: 10px;
-    margin-right: 1%; 
+    width: 31%;
+    margin-top: 10px; 
     margin-bottom: 10px;
     float: left;
 }
 .bordo{
     
-    filter: brightness(80%);
+    filter: brightness(90%);
     
 }
 .img1{
@@ -120,9 +119,8 @@ li:hover{
 
 .titoloimg{
     font-family: 'Roboto', 'sans-serif';
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -131,24 +129,45 @@ li:hover{
     color: #acacac;
     font-weight: bold;
     text-align: left;
+    line-height: 30px;
+
+}
+.user{
+    width: 5%;
+    border-radius: 50%;
+}
+.sottotitolo{
+    color: #acacac;
+    font-size: 16px;
+    vertical-align: top;
+    padding: 5px;
+}
+.username{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 5px;
 
 }
 
 .middle{
-    width: 50%;
+    width: 32%;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
    
 }
 
 
 .right{
     
-    width: 24%; 
+    width: 31%; 
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 1%;
+   
     float: right;
     
     
